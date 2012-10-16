@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400);
+
+body, html {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	width: 100%;
+	height: 100%;
+	font-family: Dosis, "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+#web-top {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #EEF;
+	background: #CDAF95 url('../imgs/headercont.png') repeat-x;
+	font-size: 20px;
+	color: #000;
+}
+
+#web-top a:link, #web-top a:visited {
+	border-bottom: 1px dotted #FFF;
+	color: #393431;
+	text-decoration: none;
+}
+
+#web-top a:hover {
+	border-bottom: 1px dotted #FCBE46;
+	color: #642;
+}
+
+#web-top-img {
+	float: left;
+	height: 40px;
+	width: 40px;
+	margin: 0 0 0 3%;
+	padding: 0;
+	border: 0;
+	background: url('../imgs/camel_logo.gif');
+	background-size: 40px 40px;
+}
+
+#web-top-menu {
+	float: left;
+	height: 33px;
+	margin: 7px 0 0 2%;;
+	padding: 0;
+	border: 0;
+}
+
+#web-bottom {
+	width: 100%;
+	height: 92%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #25B;
+}
+
+#web-bottom iframe {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

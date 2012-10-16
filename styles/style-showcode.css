@@ -1,0 +1,15 @@
+#main .showcode-container {
+	width: 758px;
+	margin: 0 0 10px 0;
+	padding: 10px;
+	border: 1px solid #8B7765;
+	background: #FFFFF7;
+	overflow: auto;
+	font-size: 16px;
+}
+
+#main .showcode-container pre {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}

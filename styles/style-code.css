@@ -1,0 +1,82 @@
+#main .code-container {
+	width: 680px;
+	height: 150px;
+	margin: 0 0 10px 50px;
+	padding: 0;
+	border: 0;
+}
+
+#main .code-img {
+	float: left;
+	width: 150px;
+	height: 150px;
+	margin: 0;
+	padding: 0;
+	
+	-webkit-border-radius: 25px; 
+	-moz-border-radius: 25px;
+	border-radius: 25px;  	/*eimai ena mouni*/
+	-o-border-radius: 25px;
+	
+	-webkit-box-shadow: 0 2px 4px rgba(120,120,120,.9);
+	-moz-box-shadow: 0 2px 4px rgba(120,120,120,.9);  	/*eimai ena mouni*/
+	box-shadow: 0 2px 4px rgba(120,120,120,.9);
+	
+	position: relative;
+	z-index: 2;
+}
+	/*eimai ena mouni*/
+#main .code-img:hover {
+	-webkit-box-shadow: 0 2px 4px rgba(20,20,20,.9);
+	-moz-box-shadow: 0 2px 4px rgba(20,20,20,.9);
+	box-shadow: 0 2px 4px rgba(20,20,20,.9);
+}
+
+#main .code-img img {
+	-webkit-border-radius: 25px; 
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	-o-border-radius: 25px;
+}
+
+#main .code {
+	float: left;
+	width: 510px;
+	height: 80px;
+        
+	margin: 25px auto;
+	padding: 10px;
+	color: #444;
+        background: #FFFFFF;
+        
+	border-top-right-radius: 20px; 
+	border-bottom-right-radius: 20px; 
+	/*eimai ena mouni*/
+	webkit-border-top-right-radius: 20px; 
+	webkit-border-bottom-right-radius: 20px; 
+		
+	-moz-border-radius-topright: 20px;
+	-moz-border-radius-bottomright: 20px;
+	
+	-webkit-box-shadow: 0 2px 4px rgba(120,120,120,.9);
+	-moz-box-shadow: 0 2px 4px rgba(120,120,120,.9);
+	box-shadow: 0 2px 4px rgba(120,120,120,.9);
+	
+	position: relative;
+	z-index: 1;
+}
+
+#main .code u {
+	color: #000;
+}
+
+#main .code i {
+	color: #000;
+}
+
+#main .code:hover {
+	-webkit-box-shadow: 0 2px 4px rgba(20,20,20,.9);
+	-moz-box-shadow: 0 2px 4px rgba(20,20,20,.9);
+	box-shadow: 0 2px 4px rgba(20,20,20,.9);
+}
+

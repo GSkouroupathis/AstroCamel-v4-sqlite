@@ -1,0 +1,18 @@
+
+table.form-tbl {
+	width: 778px;
+	margin: 0 0 10px 0;
+	padding: 20px 0 0 0;
+	border: 0;
+	background: #FFFFF7;
+}
+
+table.form-tbl td.td-label {
+	width: 271px;
+	margin: 0;
+	padding: 0 5px 0 0;
+	border: 0;
+	
+	text-align: right;
+}
+

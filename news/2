@@ -1,0 +1,15 @@
+AN SIX917P RBG(s, m, k):
+input: a random 64-bit seed s, integer m, and a DES EDE key k
+output: m pseudorandom 64-bit strings x1 , x2 , ..., xm
+1. compute I = Ek (D) where D is a 64-bit representation of the
+date/time in as fine a resolution as possible.
+2. for i = 1 to m do:
+3.
+xi = Ek (I ⊕ s)
+4.
+s = Ek (xi ⊕ I)
+5. output (x1 , x2 , ..., xm )
+This approach is a sound way to generate pseudorandom bits provided
+that DES is replaced by a more modern cipher such as AES. Any pro-
+grammer that employs this method for pseudorandom bit generation by
+replacing DES with AES is employing a sound primitive.

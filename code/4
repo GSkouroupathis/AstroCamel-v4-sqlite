@@ -1,0 +1,20 @@
+import tornado.ioloop
+import tornado.web
+import os
+ 
+class MainHandler(tornado.web.RequestHandler):
+        def get(self):
+                imgs = os.listdir("../imgs")
+                self.render("../templates/main.html", imgs=imgs)
+
+settings = {
+	"static_path": os.path.join(os.path.dirname(__file__), ".."),
+}
+
+application = tornado.web.Application([
+(r"/", MainHandler),
+], **settings)
+
+if __name__ == "__main__":
+        application.listen(6666)
+        tornado.ioloop.IOLoop.instance().start()

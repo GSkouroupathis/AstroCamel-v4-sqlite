@@ -1,0 +1,52 @@
+#main .gal-stuff {
+	float: left;
+	width: 250px;
+	height: 130px;
+	margin: 0 5px 10px 5px;
+	padding: 0;
+	border: 0;
+	background: #FEF9F6;
+	overflow: auto;
+	font-size: 16px;
+	
+	-webkit-box-shadow: 0 2px 4px rgba(120,120,120,.9);
+	-moz-box-shadow: 0 2px 4px rgba(120,120,120,.9);
+	box-shadow: 0 2px 4px rgba(120,120,120,.9);
+}
+
+#main .gal-stuff:hover {
+	-webkit-box-shadow: 0 2px 4px rgba(20,20,20,.9);
+	-moz-box-shadow: 0 2px 4px rgba(20,20,20,.9);
+	box-shadow: 0 2px 4px rgba(20,20,20,.9);
+}
+
+#main .gal-img {
+	float: left;
+	width: 250px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	overflow: hidden;
+}
+
+#main img {
+	width: 250px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background: #FFFFF7;
+}
+
+#main .gal-txt {
+	float: left;
+	width: 240px;
+	height: 50px;
+	margin: 0;
+	padding: 0 5px 0 5px;
+	border: 0;
+	overflow: auto;
+	background: #FFFFFF;
+	color: #333;
+}

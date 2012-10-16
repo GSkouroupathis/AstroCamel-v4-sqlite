@@ -1,0 +1,15 @@
+import sys
+key = int(sys.argv[1])
+
+def makeS(num):
+	n = 13
+	while True:
+		n = 0
+		for i in str(num):
+			n += int(i)
+			if n % 10 == n:
+				return n
+
+for key in range(30):
+	print [makeS(i**j + j**i + j + i + key**key) for i, j in enumerate(range(10))]
+

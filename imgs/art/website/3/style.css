@@ -1,0 +1,113 @@
+body {
+	margin: 0;
+	background: #404040 url('bg.png') repeat-x;
+	font-size: 16px;
+}
+
+#container {
+	width: 750px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8%;
+}
+
+#top {
+	height: 70px;
+	overflow: hidden;
+}
+
+#tleft {
+	height: 70px;
+	float: left;
+	width: 125px;
+	padding: 0 10px 0 10px;
+	background: #FFF url('topleft.png');
+	color: #FFF;
+}
+
+#tright {
+	height: 70px;
+	float: right;
+	width: 575px;
+	padding: 0 10px 0 10px;
+	background: #FFF url('header.png');
+}
+
+#tright h1 {
+	padding: 0;
+	margin: 20px 0;
+	text-align: right;
+	color: #FFF;
+}
+
+#bottom {
+	margin-top: 20px;
+	background: url('bottom.png');
+}
+
+#bleft {
+	float: left;
+	width: 145px;
+	margin-right: 5px;
+	padding: 0;
+
+}
+
+#bright {
+	float: right;
+	width: 575px;
+	padding: 5px 10px 5px 10px;
+
+}
+
+#fix {
+	clear: both;
+}
+
+#menu {
+	padding: 0;
+	margin: 0;
+	width: 145px;
+}
+
+.menulist {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 145px;
+}
+
+.menulist li {
+	padding: 0;
+	margin: 0;
+	width: 145px;
+	font-weight: bold;
+}
+
+.menulist li a {
+	display: block;
+	width: 135px;
+	padding: 4px 0 3px 10px;
+	margin: 0;
+	text-decoration: none;
+	color: #333;
+}
+
+.menulist li a:hover {
+	background-color: #dfdbdb;
+	border-right: 1px solid #a92d2d;
+	color: #5F0000;
+}
+
+li.title {
+	color: #7F0000;
+}
+
+#footer {
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+	color: #EEE;
+	text-align: center;
+	background: #404040 url('bgfooter.png') repeat-x;
+}

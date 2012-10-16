@@ -1,0 +1,19 @@
+#main .showart-container {
+	width: 778px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	border: 1px solid #8B7765;
+	background: #FFFFF7;
+}
+
+#main .showart-container img {
+	width: 250px;
+	height: 80px;
+}
+
+#main .showart-container p {
+	width: 250px;
+	margin: 10px auto 10px auto;
+	text-align: center;
+	overflow: auto;
+}

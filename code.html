@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ 
+<head>
+ 
+<title>Code - AstroCamel.com</title>
+ 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="AstroCamel was brought to you to provide the
+ internet users the opportunity to share information through the web. Browse 
+ code snippets and artwork freely." />
+<meta name="keywords" content="torrents, free, free torrents, torrent, music,
+ pictures, movies, apps, applications, astrocamel, www.astrocamel.com, 
+ astrocamel.com, astro, camel, astro camel, astro-camel, astrocamel radio,
+  radio, online radio" />
+<meta name="author" content="George Skouroupathis" />
+<meta name="revisit-after" content="20 days" />
+<meta name="ROBOTS" content="Index, ALL" />
+<meta name="ROBOTS" content="Index, FOLLOW" />
+
+<link rel="icon" type="image/x-icon" href="{{static_url('imgs/favico.ico')}}" />
+
+<style type="text/css">
+@import url("{{static_url('styles/style-main.css')}}");
+@import url("{{static_url('styles/style-code.css')}}");
+</style>
+
+</head>
+ 
+<body>
+	
+	<div id="header-container">
+		<div id="header-cntr">
+		
+			<a href="/"><div id="header">
+
+			</div></a>
+			
+			<div id="menu">
+				<a href="/">news</a
+				><a href="/code">code</a
+				><a href="/gallery">gallery</a
+				>{% if userName != None %}(<a href="/logout">logout</a
+				>){% else %}(<a href="/login">login</a>)
+				{% end %}
+			</div>
+		
+		</div>
+	</div>
+	
+	<div id="main-container">
+		<div id="main">
+		<h4>Code it is</h4>
+			{% for code in codes %}
+         		<div class="code-container">
+         			<a href="{{('showcode/%s') %code[1]}}">
+				<div class="code-img"><img src="{{static_url('imgs/code/%s.jpg' %code[3])}}" alt="1" /></div>
+				<div class="code">
+				<u>{{code[2]}}</u> - <i>{{code[3]}}</i>
+				<br />
+				{{code[4]}}
+				</div>
+				</a>
+			</div>
+
+       			{% end %}
+			
+		</div>
+	</div>
+	
+	<div id="footer">
+	
+		<ul class="footer-list">
+		<li><a href="/">home</a></li>
+		<li><a href="/code">code</a></li>
+		<li><a href="/gallery">gallery</a></li>
+		</ul>
+		
+		<ul class="footer-list">
+		<li><a href="/about">about</a></li>
+		<li><a href="/contact">contact</a></li>
+		<li><a href="/admin">admin</a></li>
+		</ul>
+		
+		<ul class="footer-list">
+		<li><a href="/controlpanel">control panel</a></li>
+		<li><a href="/register">register</a></li>
+		{% if userName != None %}<li><a href="/logout">logout</a></li>
+		{% else %}<li><a href="/login">login</a></li>{% end %}
+		</ul>
+		
+	<div class="fix"></div>
+	<br />
+	Copyright &#169; Since 2008 - AstroCamel.com
+	</div>
+	
+	<div id="footer-shadow">
+	</div>	
+
+</body>
+</html>
+
+
+
+
+
+
+
+

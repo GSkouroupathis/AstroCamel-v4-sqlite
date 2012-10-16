@@ -1,0 +1,24 @@
+.admin-section {
+	width: 778px;
+	margin: 0;
+	padding: 7px 0;
+	border-right: 1px dotted #8B7765;
+	border-bottom: 1px dotted #8B7765;
+	border-left: 1px dotted #8B7765;
+	background: #FFFFF7;
+	font-size: 20px;
+	display: none;
+}
+
+.presection {
+	width: 768px;
+	margin: 7px 0 0 0;
+	padding: 6px 0 5px 10px;
+	border: 1px dotted #8B7765;
+	background: #FFFFFF;
+	font-size: 20px;
+}
+
+.presection:hover {
+	background: #FFFAF0;
+}
